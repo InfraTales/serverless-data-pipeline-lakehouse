@@ -1,4 +1,3 @@
-```mermaid
 sequenceDiagram
     participant Source as Data Source
     participant Glue as Glue ETL
@@ -26,4 +25,3 @@ sequenceDiagram
     Athena->>S3: Scan Delta table
     S3-->>Athena: Return data
     Athena-->>User: Query results
-```
